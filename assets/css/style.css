@@ -1,0 +1,155 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 20px 35px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: darkgray;
+    box-shadow: 0 5px 35px lightgray;
+}
+
+
+ header h1 {
+    font-weight: bold;
+    color: lightgray;
+    background-color: rgb(48, 78, 174);
+    font-size: 4vw;
+    margin: 0;
+    padding: 5px 1% 5px 6%;
+    line-height: 1;
+    border-radius: 10px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+nav a {
+    font-weight: lighter;
+    font-size: 1.5vw;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: rgb(48, 78, 174);
+}
+
+nav a:hover {
+    background-size: 100% 100%;
+
+}
+
+nav a:last-child {
+    margin-right: 0;
+}
+
+
+
+main {
+    margin-top: 20px;
+    margin-bottom: 45px;
+}
+
+.hero {
+    background-image: url(../Images/—Pngtree—fashion\ simple\ blue\ gradient\ background_496289.jpg), linear-gradient(180deg, lightblue 0%, darkgray 100%);
+    background-size: cover;
+    min-height: 30vh;
+    background-position: center;
+    background-blend-mode: soft-light;
+    padding: 2% 6%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    text-align: right;
+}
+.hero div {
+    flex: 0 0 90%;
+}
+
+.hero h2 {
+    color: lightgray;
+    font: bold;
+    background-color: rgb(48, 78, 174);
+    margin: 0;
+    padding: 5px 10px;
+    font-size: 2.3rem;
+    line-height: 1.2;
+    display: inline;
+    border-radius: 15px;
+}
+
+.wrapper {
+    max-width: 88%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sections {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-title {
+    display: flex;
+    flex-direction: row;
+    color: rgb(48, 78, 174);
+    border-right: 4px solid rgb(48, 78, 174);
+    padding: 10px;
+    font-size: 40px;
+    text-align: right;
+}
+
+.section-text {
+    padding: 20px;
+    line-height: 1.5;
+}
+
+.work-tile {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: flex-start;
+    min-width: 30%;
+    border: 6px solid rgb(48, 78, 174);
+    height: 100%;
+}
+
+.work-tile div {
+    background: rgb(48, 78, 174);
+    color: lightgray;
+    text-decoration: none;
+}
+
+.contact-me a {
+    text-decoration: none;
+    color: black;
+    border-bottom: 4px solid black;
+}
+
+.contact-me {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    list-style: none;
+}
+
+.contact-me a {
+    font-weight: lighter;
+    font-size: 1.5vw;
+    padding: 10px 15px;
+    text-decoration: none;
+}
