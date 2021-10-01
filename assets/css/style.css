@@ -141,7 +141,6 @@ main {
   padding: 0 0 20px 0;
   margin: 0.5em;
   text-decoration: none;
-  /* background-blend-mode: soft-light; */
   background-size: 150%;
   transition: all 0.5s;
   font-size: 0.9rem;
@@ -181,7 +180,11 @@ main {
   text-decoration: none;
   font-size: 1.3rem;
   font-style: normal;
-  background-image: linear-gradient(270deg, var(--primary) 0%, var(--primary) 100%);
+  background-image: linear-gradient(
+    270deg,
+    var(--primary) 0%,
+    var(--primary) 100%
+  );
   background-repeat: no-repeat;
   background-size: 100% 0.2em;
   background-position: bottom;
@@ -189,4 +192,55 @@ main {
   margin: 0 0.2rem 0.1rem;
   display: inline-block;
   border-bottom: 4px solid rgb(48, 78, 174);
-} */
+}
+
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 980px) {
+  header {
+    padding-bottom: 0;
+    justify-content: center;
+    position: relative;
+  }
+  header h1 {
+    width: 100%;
+    text-align: center;
+  }
+  nav {
+    margin-top: 20px;
+    width: 100%;
+    justify-content: center;
+  }
+
+  nav a {
+    font-size: 40px;
+  }
+
+  .sections {
+    display: block;
+  }
+
+  .sections h2 {
+    border-right: 0;
+    border-bottom: 4px solid rgb(48, 78, 174);
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .sections p {
+    margin: 20px;
+  }
+
+  .contact-me {
+  }
+
+  .contact-me a {
+    margin: 0px 25px 0px 25px;
+    font-size: 26px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 575px) {
+}
