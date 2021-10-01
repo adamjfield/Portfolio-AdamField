@@ -5,4 +5,4 @@ Portfolio with description about myself, examples of work developed, and methods
 https://adamjfield.github.io/portfolio/
 
 ## Screenshot of Application
-![image](./assets/images/portfolio-screenshot.jpeg)
+![screenshot](./assets/images/portfolio-screenshot.jpeg)
