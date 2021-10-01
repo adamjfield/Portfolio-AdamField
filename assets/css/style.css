@@ -77,6 +77,9 @@ main {
 .hero div {
   flex: 0 0 90%;
 }
+.hero img {
+  max-height: 30vw;
+}
 
 .hero h2 {
   color: lightgray;
